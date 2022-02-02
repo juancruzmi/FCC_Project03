@@ -79,6 +79,7 @@ body {
   margin: 0;
   padding: 0.74rem;
   border-style: none;
+  border-radius: 2px;
 }
 
 #contact button {
@@ -87,6 +88,13 @@ body {
   background-color: #52a05d;
   color: white;
   font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+}
+
+#contact button:hover {
+  cursor: pointer;
+  transform: scale(0.95);
 }
 
 /* FEATURES SECTION STYLING */
@@ -214,6 +222,15 @@ p {
   border-radius: 3px;
   background-color: #bc7643;
   color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.buynow button:hover {
+  background-color: white;
+  color: #bc7643;
+  border: solid 1px #bc7643;
+  transform: scale(0.9);
 }
 
 /* FOOTER SECTION STYLING */
